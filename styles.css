@@ -1,3 +1,33 @@
-#test {
-	color: #FF00FF;
+body {
+	background-color: #000000;
+}
+
+.j_main_nav {
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.j_main_left {
+	border: 2px solid black;
+	border-radius: 8px;
+	background-image: linear-gradient(to right, #404040, #050505);
+}
+
+.j_main_right {
+	border: 2px solid black;
+	border-radius: 8px;
+	background-image: linear-gradient(to right, #050505, #404040);
+}
+
+.j_main_head {
+	color: white;
+	background: linear-gradient(90deg, rgba(5, 5, 5, 1) 0%, rgba(64, 64, 64, 1) 1%, rgba(64, 64, 64, 1) 99%, rgba(5, 5, 5, 1) 100%);
+}
+
+.row.content {
+	height: calc(100vh);
+}
+
+.j_text_head {
+	padding: 8px;
 }
