@@ -9,3 +9,24 @@ function updateLastEdit()
 }
 
 $(document).ready(updateLastEdit());
+
+
+function parseGames()
+{
+	$("#active_content").load("../html/games/wastadium.html"); 
+}
+
+
+function parseSoftTools()
+{
+	$("#active_content").load("../html/soft_tools/substance_tex.html"); 	
+}
+
+
+function parseRobotics()
+{
+	
+}
+
+
+$(document).ready(parseGames());    // Default to games
