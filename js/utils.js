@@ -25,7 +25,7 @@ function parseSoftTools()
 
 function parseRobotics()
 {
-	
+	$("#active_content").load("../html/robotics/trubik.html"); 
 }
 
 
