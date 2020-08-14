@@ -13,19 +13,19 @@ $(document).ready(updateLastEdit());
 
 function parseGames()
 {
-	$("#active_content").load("../html/games/wastadium.html");
+	$("#active_content").load("../html/games/games.html");
 }
 
 
 function parseSoftTools()
 {
-	$("#active_content").load("../html/soft_tools/substance_tex.html"); 	
+	$("#active_content").load("../html/soft_tools/tools.html"); 	
 }
 
 
 function parseRobotics()
 {
-	$("#active_content").load("../html/robotics/trubik.html");
+	$("#active_content").load("../html/robotics/robotics.html");
 }
 
 
