@@ -51,9 +51,19 @@ body {
 }
 
 
+.j_hr_pad {
+	border: 2px solid rgba(20, 180, 20, 1);
+	border-radius: 4px;
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+
+
 .navbar-nav .nav-item .nav-link {
     color: rgba(20, 180, 20, 1);
 }
+
+
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color: rgba(20, 240, 20, 1);
@@ -112,4 +122,8 @@ body {
 .carousel img {
     max-height: 300px;
     margin: 0 auto;
+}
+
+.paragraph {
+	padding: 4px;
 }

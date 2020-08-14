@@ -13,7 +13,7 @@ $(document).ready(updateLastEdit());
 
 function parseGames()
 {
-	$("#active_content").load("../html/games/wastadium.html"); 
+	$("#active_content").load("../html/games/wastadium.html");
 }
 
 
@@ -25,8 +25,8 @@ function parseSoftTools()
 
 function parseRobotics()
 {
-	$("#active_content").load("../html/robotics/trubik.html"); 
+	$("#active_content").load("../html/robotics/trubik.html");
 }
 
 
-$(document).ready(parseGames());    // Default to games
+//$(document).ready(parseGames());    // Default to games
