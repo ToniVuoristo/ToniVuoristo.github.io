@@ -70,7 +70,7 @@ body {
 }
 
 
-@media (max-width: 560px){
+@media (max-width: 576px){
 	.hide {
 		display: none !important;
 	}
@@ -130,4 +130,18 @@ body {
 
 .remark {
 	font-size: 12px;
+}
+
+#l_source {
+	position: fixed;
+    right: 8px;
+    bottom: 8px;
+    z-index: 9999;
+    color: rgba(20, 180, 20, 1);
+}
+
+.l_source_glow:hover {
+    color: #FFFFFF;
+	text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 3px #FFF, 0 0 4px #49ff18;
+	color: #FFFFFF;
 }
