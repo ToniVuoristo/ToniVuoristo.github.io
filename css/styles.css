@@ -145,3 +145,13 @@ body {
 	text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 3px #FFF, 0 0 4px #49ff18;
 	color: #FFFFFF;
 }
+
+/* Could have propably just used a and a:hover */
+
+.link_green {
+  	color: rgba(20, 180, 20, 1);
+}
+
+.link_green:hover {
+	color: rgba(20, 240, 20, 1);
+}
